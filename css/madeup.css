@@ -19,7 +19,7 @@ html, body{
   	margin: 0.3%;
   	background-color: #6f7d70;
 
-    background-image: url("room7.jpg");
+    background-image: url("../assets/room7.jpg");
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ html, body{
 	  margin: 0.3%;
 	  background-color: #6f7d70;
 
-    background-image: url("room13.jpg");
+    background-image: url("../assets/room13.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -43,7 +43,7 @@ html, body{
 	  margin: 0.3%;
     background:rgba(141,155,142,0.9);
 
-    background-image: url("room17.jpg");
+    background-image: url("../assets/room17.jpg");
       background-size: cover;
 }
 
@@ -54,7 +54,7 @@ html, body{
   	width: 33%;
   	height: 455px;
   	margin: 0.3%;
-  	background-image: url("room20.jpg");
+  	background-image: url("../assets/room20.jpg");
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ html, body{
   	height: 455px;
   	margin: 0.3%;
 
-    background-image: url("room15.jpg");
+    background-image: url("../assets/room15.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -80,7 +80,7 @@ html, body{
 	  margin: 0.3%;
 	  background-color: #6f7d70;
 
-    background-image: url("room8.jpg");
+    background-image: url("../assets/room8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -93,7 +93,7 @@ html, body{
 	  margin: 0.3%;
     background:rgba(141,155,142,0.9);
 
-    background-image: url("room19.jpg");
+    background-image: url("../assets/room19.jpg");
     background-size: cover;
 }
 
@@ -137,7 +137,7 @@ letter-spacing: 1.5px;
 
 
 #lodges{
-  background-image: url("room4ok.jpg");
+  background-image: url("../assets/room4ok.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 99.5%;
@@ -623,7 +623,7 @@ width: 200px;
 #border{
 margin-top: 1910px;
 width: 100%;
-background-image: url("border.png");
+background-image: url("../assets/border.png");
 position: absolute;
 background-repeat: repeat-x;
 height: 10px;

@@ -134,7 +134,7 @@ color: #fff;
 }
 
 #background{
-  background-image: url("background7.jpg");
+  background-image: url("../assets/background7.jpg");
   height: 800px;
   width: 100%;
   top: 0;
@@ -156,7 +156,7 @@ html, body{
 #border{
 margin-top: 0px;
 width: 100%;
-background-image: url("border.png");
+background-image: url("../assets/border.png");
 position: absolute;
 background-repeat: repeat-x;
 height: 10px;
@@ -167,7 +167,7 @@ background-size: 75px 10px;
 #mo{
 margin-top: 370px;
 width: 200px;
-background-image: url("mo.png");
+background-image: url("../assets/mo.png");
 height: 10px;
 background-repeat: no-repeat;
 margin-left: auto;
@@ -316,7 +316,7 @@ background-color: #fff;
 
 
 #box{
-	background-image: url("background1.jpg");
+	background-image: url("../assets/background1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
