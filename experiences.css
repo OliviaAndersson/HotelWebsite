@@ -1,0 +1,563 @@
+html, body{
+width: 100%;
+margin: 0;
+}
+
+#links {
+  list-style: none;
+  padding: 0;
+  overflow: auto;
+  float: left;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#links li{
+  display: inline;
+  float: left;
+}
+
+#links li a{
+  float: left;
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #303223;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+
+#links li a:hover{
+  color: #fff;
+
+}
+
+#book-link{
+  list-style: none;
+  padding: 0;
+  overflow: auto;
+  float: right;
+  margin-right: 35px;
+  margin-top: 15px;
+}
+
+#book-link li{
+  display: inline;
+  float: right;
+  background-color: #515f52;
+  width: 180px;
+  height: 50px;
+
+}
+
+#book-link li a{
+  float: right;
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-right: 45px;
+  margin-top: 6px;
+
+}
+
+#book-link:hover{
+  background-color: #000;
+
+}
+
+
+#contact-link li{
+  display: inline;
+  float: right;
+  border: 1px solid #5B625D;
+  width: 180px;
+  height: 48px;
+
+}
+
+
+#contact-link{
+  list-style: none;
+  padding: 0;
+  overflow: auto;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+#contact-link li a{
+  float: right;
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #303223;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-right: 28px;
+  margin-top: 6px;
+
+}
+
+
+#contact-link:hover{
+  background-color: #fff;
+
+}
+
+#header{
+  background-color: #C4BFA9;
+  margin: 0;t
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+h4{
+font-weight: 400;
+font-size: 39px;
+width: 100px;
+float: left;
+margin: 12px;
+font-family: 'Indie Flower', cursive;
+padding-left: 10px;
+color: #303223;
+
+}
+
+#background{
+  background-image: url("background4.jpg");
+  height: 800px;
+  width: 100%;
+  top: 0;
+  margin: 0 auto;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  left: 0;
+  margin-top: 0;
+  text-align: left;
+
+}
+
+#discover{
+
+  background-color: #fff;
+
+  height: 1800px;
+  width: 900px;
+  margin: 0 auto;
+  top: 0;
+  padding: 0;
+  left: 0;
+  margin-top: 0;
+
+}
+
+.picture{
+  max-width: 480px;
+  height: auto;
+  margin-top: 180px;
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+h1{
+  color: #000;
+  margin: 0;
+  text-align: center;
+  padding-top: 60px;
+font-family: 'Thasadith', sans-serif;
+font-size: 40px;
+font-weight: 400;
+
+}
+
+
+.right{
+  color: #000;
+  margin: 0;
+  margin-top: 180px;
+  font-family: 'Indie Flower', cursive;
+  border-left: 1px solid #000;
+  margin-left: 30px;
+  float: left;
+  width: 320px;
+  padding-left: 40px;
+
+}
+
+.picture-right{
+  max-width: 500px;
+  height: auto;
+  margin-top: 180px;
+  float: right;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+.left{
+  color: #000;
+  margin: 0;
+  margin-top: 180px;
+  font-family: 'Indie Flower', cursive;
+  border-right: 1px solid #000;
+  margin-right: 30px;
+  float: left;
+  width: 320px;
+  padding-right: 40px;
+
+}
+
+.picture-one{
+  max-width: 500px;
+  height: auto;
+  margin-top: 140px;
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+
+p, h2{
+  color: #000;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+h2{
+	text-transform: uppercase;
+font-weight: 400;
+
+
+}
+
+
+#border{
+margin-top: 790px;
+width: 100%;
+background-image: url("borderu.png");
+position: absolute;
+background-repeat: repeat-x;
+height: 10px;
+background-size: 75px 10px;
+
+
+}
+
+
+.e{
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+height: 500px;
+
+
+}
+
+.booking{
+border: 3px solid #5B625D;
+width: 80%;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 80px;
+margin-top: 1400px;
+}
+
+.arrival{
+	width: 15%;
+  margin: 0;
+  float: left;
+  padding: 0;
+  margin-right: 2px;
+  margin-top: 50px;
+  margin-left: 10%;
+  text-align: center;
+
+}
+
+
+#departure{
+  width: 15%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+
+input{
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 5px;
+  height: 27px;
+  margin-top: 10px;
+  border: 1px solid #515f52;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+#submit{
+
+  width: 10%;
+  float: right;
+  margin-top: 78px;
+  height: 40px;
+  margin-right: 5%;
+  background-color: #515f52;
+  color: #fff;
+}
+
+
+select{
+
+  width: 100%;
+  font-size: 12px;
+  padding: 0;
+  border: 1px solid #515f52;
+  padding: 8px;
+  height: 39px;
+  float: left;
+  color: #000;
+  border-radius: 0%;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+
+
+#box{
+background-image: url("background1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+margin: 0 auto;
+height: 800px;
+}
+
+label{
+
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#rooms{
+
+	padding-left: 120px;
+}
+
+.booking h2{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #a79d85;
+  width: 200px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a79d85;
+  margin: 25px auto;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+p{
+line-height: 25px;
+
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 0px 16px;
+  background-color: #C4BFA9;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #C4BFA9;
+}
+
+.dropdown-content {
+  top: 56px;
+  margin-left: 0;
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  background-color: #C4BFA9;
+  width: 185px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  width: 185px;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn{
+	background-color: #fff;
+
+}
+
+
+#footer{
+	background-color: #515f52;
+	width: 100%;
+	height: 600px;
+
+
+}
+
+li{
+	list-style-type: none;
+
+}
+
+h6{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+width: 200px;
+	text-transform: uppercase;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.map{
+	margin-top: 45px;
+	max-width: 300px;
+	max-height: 300px;
+	float: right;
+	margin-right: 5%;
+
+}
+
+#links-bottom li{
+	padding: 10px;
+
+}
+
+.lin a:hover{
+  color: #C7BB9E;
+}
+
+.link a:hover{
+
+	  color: #C7BB9E;
+}
+
+
+#links-bottom{
+	padding-top: 30px;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.link{
+width: 220px;
+  float: left;
+  padding-left: 0;
+}
+
+
+.link li a{
+  text-decoration: none;
+  color: #ffffff;
+   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding: 12px 0px 12px 0px;
+
+}
+
+.lin{
+	width: 260px;
+  float: left;
+   padding-left: 0;
+}
+
+
+.lin li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding: 12px 0px 12px 0px;
+
+}
+
+.l-bo{
+float: left;
+width: 220px;
+
+}
+
+h5{
+text-align: center;
+padding-top: 350px;
+background-color: ;
+font-size: 40px;
+
+
+}
